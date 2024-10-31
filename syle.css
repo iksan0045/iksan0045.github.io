@@ -1,38 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ganti font untuk tampilan modern */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #0d0d0d; /* Warna latar belakang gelap */
+    color: #e0e0e0; /* Warna teks terang untuk kontras */
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #1a1a1a; /* Warna header yang lebih gelap */
+    color: #4caf50; /* Warna hijau untuk teks */
     padding: 20px;
     text-align: center;
+    border-bottom: 3px solid #4caf50; /* Garis bawah hijau */
 }
 
 #projects {
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Lebar maksimum untuk konten */
+    padding: 0 10px;
 }
 
 .project {
-    background-color: white;
+    background-color: #1c1c1c; /* Warna latar belakang proyek */
     padding: 15px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #333; /* Border hitam yang halus */
+    border-radius: 5px; /* Sudut bulat untuk kotak proyek */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animasi saat hover */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Meningkatkan ukuran saat hover */
+    box-shadow: 0 4px 20px rgba(76, 175, 80, 0.5); /* Bayangan hijau saat hover */
 }
 
 .project h3 {
-    margin: 0;
+    color: #4caf50; /* Warna hijau untuk judul proyek */
+    margin: 0 0 10px; /* Margin bawah untuk judul */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
+    background-color: #1a1a1a; /* Warna footer gelap */
+    color: #4caf50; /* Warna hijau untuk teks footer */
+    position: relative; /* Ubah posisi agar footer tidak terikat di bawah */
     bottom: 0;
+    width: 100%;
+    border-top: 3px solid #4caf50; /* Garis atas hijau */
 }
