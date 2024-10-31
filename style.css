@@ -29,10 +29,10 @@ header {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .project img {
-    width: 100%; /* Agar gambar menyesuaikan lebar div proyek */
-    height: auto; /* Menjaga rasio aspek gambar */
-    margin-top: 10px; /* Menambahkan sedikit ruang antara deskripsi dan gambar */
-    border-radius: 8px; /* Memberikan efek sudut melengkung */
+    width: 100%; 
+    height: auto; 
+    margin-top: 10px; 
+    border-radius: 8px; 
 }
 .project:hover {
     transform: scale(1.05); 
@@ -45,45 +45,45 @@ header {
 }
 
 .button {
-    display: inline-block; /* Makes it behave like a button */
-    padding: 10px 15px; /* Adds padding */
-    margin: 5px; /* Adds space between buttons */
-    color: white; /* Text color */
-    background-color: #0f70ac; /* Twitter blue */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold text */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: inline-block; 
+    padding: 10px 15px; 
+    margin: 5px; 
+    color: white; 
+    background-color: #0f70ac; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
 }
 
 .buttonmail {
-    display: inline-block; /* Makes it behave like a button */
-    padding: 10px 15px; /* Adds padding */
-    margin: 5px; /* Adds space between buttons */
-    color: white; /* Text color */
-    background-color: #f24f1d; /* Twitter blue */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold text */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px; 
+    color: white;
+    background-color: #f24f1d;
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
 }
 .buttonproject {
-    display: inline-block; /* Makes it behave like a button */
-    padding: 10px 15px; /* Adds padding */
-    margin: 5px; /* Adds space between buttons */
-    color: white; /* Text color */
-    background-color: #1df28f; /* Twitter blue */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold text */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: inline-block; 
+    padding: 10px 15px; 
+    margin: 5px; 
+    color: white;
+    background-color: #1df28f; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
 }
 
 .button:hover {
-    background-color: #0d8ecf; /* Darker blue on hover */
+    background-color: #0d8ecf; 
 }
 
 
